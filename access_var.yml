@@ -1,0 +1,15 @@
+---
+- name: "Get Facts"
+  hosts: all
+  gather_facts: true
+
+  tasks:
+    - name: "Display hostname"
+      ansible.builtin.debug:
+        msg: "{{ ansible_net_hostname }}"
+      when: ansible_connection == 'network_cli'
+
+    - name: "Display OS"
+      ansible.builtin.debug:
+        msg: "{{ ansible_os_family }}"
+      when: ansible_connection == 'local'

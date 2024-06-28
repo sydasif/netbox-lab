@@ -1,0 +1,4 @@
+---
+ansible_user: zolo
+ansible_password: redhat
+ansible_connection: local

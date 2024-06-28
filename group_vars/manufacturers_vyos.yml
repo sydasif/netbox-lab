@@ -1,0 +1,4 @@
+---
+ansible_user: vyos
+ansible_password: vyos
+ansible_connection: network_cli

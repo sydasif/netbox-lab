@@ -1,0 +1,9 @@
+---
+plugin: netbox.netbox.nb_inventory
+api_endpoint: http://127.0.0.1:8000
+token: 4ee31d5f0910fc6122e11cbb78bf9dd049f271a4
+compose:
+  ansible_network_os: platform.slug
+
+group_by: 
+  - manufacturers

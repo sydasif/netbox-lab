@@ -1,0 +1,7 @@
+{
+    "ansible.python.interpreterPath": "/home/zolo/netbox-lab/.venv/bin/python",
+    "cSpell.words": [
+        "colour",
+        "vyos"
+    ]
+}
